@@ -83,3 +83,28 @@ let greeting = `Hello, ${user}, good morning!`
 
 console.log(greeting)
 */
+
+/* ================== String and Number methods =======================  
+let theString = 'Hello, my name is Nagendra and I love JS'
+
+// startsWith()
+// endsWith()
+// includes()
+
+// console.log(theString.startsWith('Hello'))
+// console.log(theString.endsWith('JS!'))
+// console.log(theString.includes('love'))
+
+// Hex
+// console.log(0xFF)
+
+// // Binary
+// console.log(0b1011)
+
+// // Octal
+// console.log(0o543)
+
+// console.log(Number.isFinite(NaN))
+// console.log(Number.isNaN(1))
+// console.log(Number.isInteger(123))
+*/
