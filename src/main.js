@@ -75,3 +75,11 @@ let mike = new Member("mike", "mike@mail.com", "123", "standard")
 mike.getPackage();
 mike.register();
 */ 
+
+/* ===================== template literals ==============================
+const user = "Nagendra"
+
+let greeting = `Hello, ${user}, good morning!`
+
+console.log(greeting)
+*/
