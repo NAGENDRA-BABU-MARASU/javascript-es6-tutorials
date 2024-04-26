@@ -187,3 +187,32 @@ carWeakMap.set(key1, car1)
 
 console.log(carWeakMap)
 */
+
+
+/* arrow functions
+// function Prefixer(prefix){
+//   this.prefix = prefix;
+// }
+
+// Prefixer.prototype.prefixArray = function(arr) { 
+//   return arr.map(x =>{
+//     console.log(this.prefix + x)
+//   })
+// }
+
+// let prefixer = new Prefixer('Bye ')
+// prefixer.prefixArray(['Luffy', 'Ace'])
+
+// let add = function(a,b){
+//   let sum = a+b;
+//   console.log(sum);
+//   return false;
+// }
+
+// let add = (a,b) => {
+//   console.log(a+b)
+//   return false
+// };
+
+// add(1,2)
+*/
