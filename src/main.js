@@ -130,6 +130,7 @@ let theString = 'Hello, my name is Nagendra and I love JS'
 
 */
 
+/* set,map, weakset, weakmap
 // let myArray = [11,2,43,65,43];
 // let mySet = new Set(myArray);
 
@@ -185,3 +186,4 @@ let car1 = {
 carWeakMap.set(key1, car1)
 
 console.log(carWeakMap)
+*/
