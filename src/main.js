@@ -129,3 +129,59 @@ let theString = 'Hello, my name is Nagendra and I love JS'
 // test.apply(null, args)
 
 */
+
+// let myArray = [11,2,43,65,43];
+// let mySet = new Set(myArray);
+
+// mySet.add('102');
+// mySet.add('102');
+// mySet.add({ a: 1, b: 2 })
+// mySet.add({ a: 1, b: 2 }) // this is also will be added because those two objects aren't same !
+// mySet.delete(43)
+
+// // mySet.clear()
+
+// // console.log(mySet)
+// // console.log(mySet.size)
+
+// mySet.forEach(function(val) {
+//   console.log(val)
+// })
+
+// // key value pairs map 
+// let myMap = new Map([['a1','Hello'], ['b2', 'Goodbye']])
+// myMap.set('c3', 'World')
+// myMap.delete('a1')
+// console.log(myMap)
+
+// let carWeakSet = new WeakSet();
+
+// let car1 = {
+//   make: 'Honda', 
+//   model: 'Civic'
+// }
+
+// let car2 = {
+//   make: 'Toyota',
+//   model: 'Camry'
+// }
+
+// carWeakSet.add(car1)
+// carWeakSet.add(car2)
+
+// console.log(carWeakSet)
+
+let carWeakMap = new WeakMap();
+
+let key1 = { 
+  id : 1
+}
+
+let car1 = {
+  make: 'Honda',
+  model: 'Civic'
+}
+
+carWeakMap.set(key1, car1)
+
+console.log(carWeakMap)
