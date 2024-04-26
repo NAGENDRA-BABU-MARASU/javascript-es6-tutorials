@@ -108,3 +108,24 @@ let theString = 'Hello, my name is Nagendra and I love JS'
 // console.log(Number.isNaN(1))
 // console.log(Number.isInteger(123))
 */
+
+/* default params & spread operator
+
+// function greet(greeting = 'Hello World'){
+//   console.log(greeting)
+// }
+
+// greet()
+
+// let args = [1,2,3]
+// let args2 = [4,5,6]
+
+// function test(){
+//   console.log(args+ "," + args2)
+// }
+
+// test(...args , ...args2)
+
+// test.apply(null, args)
+
+*/
