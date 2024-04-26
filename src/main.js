@@ -216,3 +216,50 @@ console.log(carWeakMap)
 
 // add(1,2)
 */
+
+/* promises
+// var myPromise = Promise.resolve('Foo')
+
+// myPromise.then((response) => console.log(response) )
+
+// var myPromise = new Promise(function(resolve, reject) {
+//   setTimeout(() => {
+//     resolve(4)
+//   }, 2000)
+// })
+
+// myPromise.then(res => {
+//   res = res + 3;
+//   console.log(res);
+// })
+
+// function getData(method, url){
+//   return new Promise(function(resolve, reject){
+//     var xhr = new XMLHttpRequest()
+//     xhr.open(method, url);
+//     xhr.onload = function(){
+//       if(this.status >= 200 && this.status < 300) {
+//         resolve(xhr.response)
+//       } else {
+//         reject({
+//           status: this.status , 
+//           statusText: xhr.statusText
+//         })
+//       };
+//     };
+//     xhr.onerror = function(){
+//       reject({
+//         status: this.status,
+//         statusText: xhr.statusText
+//       })
+//     };
+//     xhr.send()
+//   });
+// }
+
+// getData('GET', 'https://jsonplaceholder.typicode.com/todos').then(function(response) {
+//   console.log(response)
+// }).catch(function(err){
+//   console.log(err)
+// })
+*/
